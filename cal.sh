@@ -4,6 +4,8 @@ menu=$1
 declare -a num
 num=(`cat num1.txt` `cat num2.txt`) 
 
+echo " project management in github"
+
 if [ -z $menu ]
 then
     echo "...none operator parameter...."
