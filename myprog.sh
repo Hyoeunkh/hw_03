@@ -3,11 +3,8 @@
 echo "...create temp directory..."
 echo "...copy files to temp directory..."
 
-create=/home/test/hw03/temp
 
-if [ ! -d $create ]; then
-  mkdir $create 
-fi
+mkdir temp
 
 cp -a num1.txt temp
 cp -a num2.txt temp
